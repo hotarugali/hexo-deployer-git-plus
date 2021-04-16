@@ -13,8 +13,8 @@ node_js:
   - "14"
 
 before_script:
-  - ssh-keygen -t rsa -C "you@example.com"
-
+  - git config user.name 'yourname'
+  - git config user.email 'you@example.com'
 
 script:
   - npm run eslint
