@@ -16,9 +16,9 @@ before_script:
   - git config user.name 'yourname'
   - git config user.email 'you@example.com'
 
-script:
-  - npm run eslint
-  - npm run test-cov
+# script:
+#   - npm run eslint
+#   - npm run test-cov
 
 after_script:
   - npm install coveralls
